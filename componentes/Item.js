@@ -11,7 +11,7 @@ export default function Item({ title, nome, onDelete, pessoa, closeModal }) {
       </View>
 
       <View style={styles.viewIcons}>
-        <ModalApp pessoa={pessoa} closeModal={closeModal} />
+        <ModalApp style={styles.button} pessoa={pessoa} closeModal={closeModal} />
 
         <TouchableOpacity style={styles.button} onPress={onDelete}>
           <Ionicons name="trash-sharp" size={30} color="yellow" />
@@ -22,16 +22,19 @@ export default function Item({ title, nome, onDelete, pessoa, closeModal }) {
 }
 
 const styles = StyleSheet.create({
-  button: {
-    marginLeft: 15,
+
+  botoes: {
+
   },
+
   viewIcons: {
+    
     alignItems: 'center',
-    justifyContent: 'center',
     display: 'flex',
     flexDirection: 'row',
     height: '100%',
-    width: '30%',
+    width: '30%'
+
   },
   viewTexto: {
     alignContent: 'center',
@@ -43,7 +46,6 @@ const styles = StyleSheet.create({
     display: 'flex',
     flexDirection: 'row',
     backgroundColor: '#00BFFF',
-
     marginVertical: 5,
   },
   title: {
