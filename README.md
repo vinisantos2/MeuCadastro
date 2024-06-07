@@ -3,7 +3,6 @@ Projeto em react-native que realiza cadastro, edição, listamento e remorção 
 
 ## 🛠️ Construído com
 
-
 React-native 
 javaScript e typeScript
 
