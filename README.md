@@ -8,4 +8,4 @@ javaScript e typeScript
 
 ## tela home:
 
-<img src="imagensApp/unnamed.jpg" alt="Tela home">
+<img src="imagensApp/unnamed.jpg" alt="Tela home" style=" width: 500px; height: 600px;">
